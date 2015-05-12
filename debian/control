@@ -1,0 +1,12 @@
+Source: ros-jade-nao-interaction
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://wiki.ros.org/nao_interaction
+Standards-Version: 3.9.2
+
+Package: ros-jade-nao-interaction
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-nao-audio, ros-jade-nao-interaction-launchers, ros-jade-nao-interaction-msgs, ros-jade-nao-vision
+Description: Metapackage for the Nao robot, providing access to: - NAOqi audio proxies - NAOqi vision proxies
