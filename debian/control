@@ -1,0 +1,12 @@
+Source: ros-jade-nao-interaction-launchers
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://wiki.ros.org/nao_interaction_launchers
+Standards-Version: 3.9.2
+
+Package: ros-jade-nao-interaction-launchers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-nao-audio, ros-jade-nao-vision
+Description: Launchers for bringing up the nodes of nao_interaction metapackage.
