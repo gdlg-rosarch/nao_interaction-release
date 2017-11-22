@@ -1,0 +1,12 @@
+Source: ros-kinetic-nao-interaction-launchers
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/nao_interaction_launchers
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nao-interaction-launchers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-nao-audio, ros-kinetic-nao-vision
+Description: Launchers for bringing up the nodes of nao_interaction metapackage.
