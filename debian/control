@@ -1,0 +1,12 @@
+Source: ros-kinetic-nao-vision
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/nao_vision
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nao-vision
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-nao-interaction-msgs, ros-kinetic-roslaunch, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Description: Package for the Nao robot, providing access to NAOqi vision proxies
